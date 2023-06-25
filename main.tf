@@ -1,5 +1,5 @@
 module "test" {
-	source="https://github.com/SarithaDevops23/tf-module-app.git"
-	name="dev"
+	source = "git::https://github.com/SarithaDevops23/tf-module-app.git"
+	env = var.env
 
 }
