@@ -1,8 +1,7 @@
 env = "prod"
 
-component = {
+components = {
  
- default = {
 	frontend = {}
 	mongodb = {}
 	catalogue ={}
@@ -14,7 +13,6 @@ component = {
 	payment ={}
 	rabbitmq = {}
 	dispatch ={}
-	
- }
+
 
 }
